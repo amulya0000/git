@@ -1,0 +1,35 @@
+Q. How to create or initilize a git repository
+A. we can create or initilize a git repository using the command "git init"
+   and once you initilize a git repository ".git" folder is created in the directory
+   This ".git" is reponsible for tracking and ensuring there are no secrets
+
+>>>..  Git is a distributed version control system
+       git checkout -b division   ---------> It creates a new branch called division and
+                                             switches to a division branch
+       git cherry-pick 2bc5ce77319fd34bdea800082f68f65ff3ced5da   ---------> It add the commit to the the main branch from division branch
+
+
+GIT COMMANDS:
+
+              git add : for tracking the files
+              git commit : used to record changes to the repository.
+              git clone : using git clone you can pull the code from github
+              git diff : shows the difference between the working directory and the index, or the index and the last commit.
+              git log :  displays a list of commits in reverse chronological order.  
+              git checkout : used to switch between the branches
+              git merge :  `git merge` integrates changes from one branch into another, but conflicts need resolution before committing.  
+              git rebase :   `git rebase` applies changes from one branch to another by reapplying each commit, potentially rewriting commit history.    
+              git cherry-pick : it merges the branch
+
+
+
+Q. What is git workflow that you use inyour organization?
+A. git add && git commit -m "" && git push
+
+Git clone vs git fork
+       `git clone`copies an existing repository to create a local copy for collaboration or modification. 
+       `git fork` creates a copy of a repository in your GitHub account to freely experiment with changes without affecting the original repository. 
+
+git merge vs git rebase
+           `git merge` combines branches, keeping the commit history, 
+            while `git rebase` moves the current branch to the tip of another branch, rewriting history.  
