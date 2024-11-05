@@ -1,0 +1,38 @@
+1. **Is Git a distributed or centralized version control system? What is the difference between them?**
+   - **Answer:** Git is a distributed version control system. In centralized systems like SVN or CVS, the server holds all the versions of the code, and clients only have the current version. In distributed systems like Git, every developer has a full copy of the repository, including all versions of the code.
+
+2. **What are the Git commands that you use to commit changes to your remote repository?**
+   - **Answer:** The basic commands are `git add`, `git commit`, and `git push`.
+
+3. **What is the difference between `git fetch` and `git pull`?**
+   - **Answer:** `git fetch` updates your local repository with changes from the remote repository but does not merge them. `git pull` fetches and merges changes from the remote repository into your local branch.
+
+4. **What is the difference between `git merge` and `git rebase`?**
+   - **Answer:** Both are used to integrate changes from one branch into another. `git merge` preserves the history of the branches, while `git rebase` creates a linear history by applying changes on top of the current branch.
+
+5. **What is the difference between `.git` and `.gitignore`?**
+   - **Answer:** `.git` is a directory that contains all the metadata and history of the repository. `.gitignore` is a file that specifies which files or directories should be ignored by Git.
+
+6. **What are pre-commit hooks and post-commit hooks?**
+   - **Answer:** Pre-commit hooks are scripts that run before a commit is made, allowing you to prevent certain changes from being committed. Post-commit hooks run after a commit is made and can be used to trigger actions like notifications.
+
+7. **What is a webhook?**
+   - **Answer:** A webhook is a way to trigger actions in response to events in a Git repository, such as commits or pull requests. It can be used to integrate with external services or automate workflows.
+
+8. **How do you pull and push changes in Git?**
+   - **Answer:** Use `git pull` to fetch and merge changes from the remote repository, and `git push` to upload your local changes to the remote repository.
+
+9. **What is `git stash` and its use case?**
+   - **Answer:** `git stash` temporarily saves changes that are not ready to be committed, allowing you to switch branches or work on something else without losing your progress.
+
+10. **What is the difference between `git clone` and `git fork`?**
+    - **Answer:** `git clone` creates a local copy of a remote repository. `git fork` creates a copy of a repository under your own GitHub account, allowing you to make changes independently.
+
+11. **What is cherry-picking in Git?**
+    - **Answer:** Cherry-picking is the process of selecting specific commits from one branch and applying them to another branch.
+
+12. **How do you amend a commit in Git?**
+    - **Answer:** Use `git commit --amend` to modify the most recent commit. This can be used to correct mistakes or add changes to the last commit.
+
+13. **How do you resolve a merge conflict in Git?**
+    - **Answer:** Resolve merge conflicts by collaborating with other developers to decide which changes to keep. After resolving the conflicts, use `git add` to mark them as resolved and then commit the changes.
